@@ -3,7 +3,7 @@
 
 而mp3lame可以帮我们把wav转成mp3格式。
 
-而网上的mp3lame.so都是基于32位，所以在64位上跑就会报错：
+而没有找到对应 cpu 架构的时候会报错：
 
 java.lang.UnsatisfiedLinkError:xxxxxxxxxxxxxxxxxxxxx  couldn't find "libmp3lame.so" 的问题。
 
